@@ -58,6 +58,7 @@ section, aside, nav, footer {
   padding: .5rem;
 }
 
+
 header, footer {
   border-top: .125rem solid #33658A;
   border-bottom: .125rem solid #33658A;
@@ -83,8 +84,6 @@ html {
     font-family: monstserrat-regular, sans-serif;
     src: url(../fonts/montserrat-regular.ttf);
 }
-
-
 
 h1 { 
     text-align:center; 
@@ -175,7 +174,6 @@ a:hover {
     
 }
 
-/* Navigation Menu */
 nav{  padding-left: 0.25rem;
     margin-top: 0.25rem;
     outline: none;
