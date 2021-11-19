@@ -1,4 +1,3 @@
-/* General setup */
 
 * {
     box-sizing: border-box;
@@ -13,8 +12,6 @@ body {
     width:90%;
     min-width:56.25rem;
 }
-
-/* Layout */
 
 main {
     overflow:auto;
@@ -61,60 +58,149 @@ section, aside, nav, footer {
   padding: .5rem;
 }
 
-/* header and footer */
 
 header, footer {
   border-top: .125rem solid #33658A;
   border-bottom: .125rem solid #33658A;
 }
 
-/* ------ START WRITING YOUR CODE BELOW THIS LINE ------ */
+@font-face {
+    font-family:josefinslab-regular;
+    src: url(../fonts/josefinslab-regular.ttf);
+    font-style:normal;
+    font-weight:normal;
+}
+@font-face {
 
-/* NO changes should be made to any of the code above. */
-
-/* NOTE: While you will be using some of the same CSS properties, the VALUES 
-   may need to be different in order to style the page correctly. */
-
-
-
-/* Imported Typfaces */
-
-
-
-
-
-/* Typography Styles */
+    font-family:monstserrat-regular; 
+    src: url(../fonts/montserrat-regular.ttf);
+    font-style:normal;
+    font-weight:normal;
+}
 
 
 
+html {
+    font-family: monstserrat-regular, sans-serif;
+    src: url(../fonts/montserrat-regular.ttf);
+}
 
+h1 { 
+    text-align:center; 
+    font-size: 3.75rem;
+    font-family:josefinslab-regular, sans-serif;
+    src: url(../fonts/josefinslab-regular.ttf);
+    line-height: 3.85rem;
+    letter-spacing: 0.125rem;
+    margin: 1.125rem   
+}
 
+h2 { 
+    font-size: 1.5rem;
+    font-family:josefinslab-regular, sans-serif;
+    src: url(../fonts/josefinslab-regular.ttf);
+}
 
-/* Link Styling */
+h2 + p {
+    text-indent: 1.5rem;
+}
 
+p {
+    font-size: 0.75rem;
+    text-align: left;
+    line-height: 1rem;
+    letter-spacing: 0.031rem;
+    word-spacing: 0.125rem;
+}
 
+li {
+    font-size: 0.75rem;
+    letter-spacing: 0.031rem;
+    word-spacing: 0.125rem;
+}
 
+figcaption {
+    font-size: 0.75rem;
+    margin-bottom: 2rem;
+}
 
+a {
+    outline:none;
+}
 
+a:link {
+    color:#33658A;
+    
+}
 
-/* List Styling */
+a:visited { 
+    color:blueviolet; 
+}
 
+a:focus {
+    outline: none;
+}
 
+a:hover {
+    outline: none; 
+}
 
+ ul {
+     font-size: .75rem;
+ text-align: left;
+ line-height: 1rem;
+ letter-spacing: 0.125rem;
+ word-spacing: 0.031rem;
+ margin-top: 1rem;
+ margin-bottom: 1rem;
+ margin-right: 0rem;
+ list-style-type: square;
+ }
 
+ ol {
+    font-size: 0.75rem;
+    text-align: left;
+    line-height: 1rem;
+    letter-spacing: 0.125rem;
+    word-spacing: .031rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 0rem;
+    list-style-type: lower-alpha;
+ }
 
+ .longlist a:hover {
+      text-transform: uppercase;
+    
+}
 
-/* Navigation Menu */
+nav{  padding-left: 0.25rem;
+    margin-top: 0.25rem;
+    outline: none;
+   
+}
 
+nav a { 
+    display: inline-block;
+    width: 100%;
+    line-height: 3;
+    text-align: center;
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+    border: .06rem solid #33658A; 
+    text-decoration-line: none;
+}
+nav a:focus, nav a:hover {
+    outline: none;
+    text-decoration-line: none;
 
+}
 
+nav a:active {
+    color:#fff;
+    background-color: black;
+}
 
-
-
-/* Footer Styles */
-
-
-
-
-
-
+footer {
+    text-align: center;
+}
